@@ -52,3 +52,9 @@ while i < len(campuran):
 # menambahkan antar 2 list
 gabungan = angka + string
 print(gabungan)
+
+# mengecek apakah ada di dalam suatu list menggunakan in
+if "Nugie" in string:
+    print("ada Nugie di dalam list string")
+else:
+    print("tidak ada nugie di list string")
